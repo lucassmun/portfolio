@@ -102,8 +102,6 @@ ul{
 }
 
 
-/* LUCAS 2022*/
-
 .ventana{
     background-color: #eb5b29;
     height: 50px;
@@ -199,8 +197,6 @@ button svg {
    button:hover svg {
     transform: scale(1.2);
 }
-
-/* PERFILLLLLLLLLLL */
 
 .ventana2{
     background-color: #414698;
@@ -584,7 +580,7 @@ label {
     color: #ffdd55;
     font-family: 'Fugaz One', cursive;
     -webkit-text-stroke: 0.01px #414698;
-    font-size: 60px;
+    font-size: 50px;
     text-shadow: -0.3rem 0.2rem #414698;
     text-align: center;
 }
@@ -629,13 +625,19 @@ label {
 
   }
 
+
+  .portfolio_video iframe{
+      width: 100%;
+      height: 100%;
+  }
+
   .portfolio_grid{
     width: 80%;
     height: auto;
     margin-left: 10%;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 220px 100px 60px 1fr;
+    grid-template-rows: 220px 100px 60px 550px;
     grid-template-areas: 
         "videos imagen"
         "globo imagen"
@@ -643,7 +645,6 @@ label {
         "videos2 videos2";
         gap: 70px 40px;
 }
-
 
     .portfolio_titulo{
         grid-area: videos;
@@ -664,6 +665,7 @@ label {
     .portfolio_video{
         grid-area: videos2;
     }
+
 
 /* PORTFOLIO WEBS */
 
@@ -688,7 +690,7 @@ label {
     align-items: center;
 }
 
-.portfolio_subtitulo2{
+.portfolio_subtitulo3{
     color: #ffdd55;
     font-family: 'Fugaz One', cursive;
     -webkit-text-stroke: 0.01px #414698;
@@ -730,7 +732,7 @@ label {
     justify-self: center;
    }
 
-.portfolio_subtitulo3{
+.portfolio_subtitulo4{
     color: #ffdd55;
     font-family: 'Fugaz One', cursive;
     -webkit-text-stroke: 0.01px #414698;
@@ -1129,7 +1131,7 @@ margin-right: 40px;
   }
 
 .portfolio_subtitulo2{
-    font-size: 60px;
+    font-size: 5px;
     text-align: center;
 }
 
@@ -1151,9 +1153,11 @@ margin-right: 40px;
 }
 
 
-  .portfolio_video video{
-      height: 300px;
-  }
+
+.portfolio_video iframe{
+    width: 100%;
+    height: 100%;
+}
 
   .portfolio_video img{
     height: 100%;
@@ -1274,6 +1278,13 @@ margin-right: 40px;
        
     }
  
+
+    .estudios_contenido{
+        height: auto;
+    }
+    
+
+
 .sobremi{
     flex-direction: column;
 }
@@ -1418,6 +1429,13 @@ button svg {
 
 /* portfolio */
 
+
+.estudios_contenido{
+    height: auto;
+}
+
+
+
 .portfolio_grid{
     grid-template-columns: 1fr;
     grid-template-rows: 100px 100px 33px 110px 200px;
@@ -1442,7 +1460,7 @@ button svg {
 }
 
 .portfolio_contenido{
-    height: 100px;
+    height: auto;
     width: 90%;
 }
 
