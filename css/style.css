@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 .body{
 background-image: url(../img/fondo.jpg);
 }
@@ -18,30 +19,37 @@ background-image: url(../img/fondo.jpg);
 
 /* MENU*/
 
-.encabezado{
-    background-color: #414698;
-    display: flex;
-    flex-flow: row nowrap;
-    width: 100%;
-    height: 30px;
-    justify-content: center;
-    justify-content: space-evenly;
-    align-items: center;
+
+.header{
+   
     position: sticky;
     top: 0;
     z-index: 1;
 }
 
-.encabezado h3{
-    color: #ffdd55;
-    font-family: 'Staatliches', cursive;
-    font-size: 20px;
+.encabezado{
+    background-color: #414698;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    align-items: center !important;
+   
 }
 
-.encabezado p{
+.encabezado_texto{
+    color: #ffdd55;
+    font-family: 'Staatliches', cursive;
+    font-size: 18px;
+   
+}
+
+.encabezado_estrella{
     color: #eb5b29;
     font-family: 'Staatliches', cursive;
-    font-size: 20px;  
+    font-size: 18px;  
 }
 
 .logo_marca{
@@ -53,54 +61,39 @@ background-image: url(../img/fondo.jpg);
 
 /* NAV */
 
-.header_contenedor{
-    background-color: #eb5b29;
-    margin: 0 auto;
-    height: 60px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 50px;
-    z-index: 100;
+
+
+.nav-link{
+    text-decoration: none;
+    text-decoration: #fff;
 }
 
-.nav_lista{
-    display: flex;
-    justify-content: center;
-    font-size: 18px;
-    gap: 20px;
+.navbar{
+    background-color: #e26628;
+    margin-bottom: 30px;
+     
 }
 
-.nav_link{
- color: aliceblue;
- text-decoration: none;
- font-family: 'Roboto', sans-serif;
- transition: all 0.3s ease 0s;
+a{
+    color: #fff !important;
 }
 
-.nav_link_active{
-    color: #ffdd55;
- text-decoration: none;
- font-family: 'Roboto', sans-serif;
- transition: all 0.3s ease 0s;
+a:hover{
+    color: #ffdd55 !important;
 }
 
-.nav_link:hover{
-    color: #ffdd55;
+.navbar-nav .open .dropdown-menu {
+    background-color:#e26628;}
+
+
+.dropdown-item{
+    background-color: #e26628 !important;
 }
 
-ul{
-    list-style: none;
-}
 
-.header{
-    position: sticky;
-    z-index: 1;
-    top: 0;
+.navbarDropdownMenuLink{
+    background-color: #e26628 !important;
 }
-
 
 .ventana{
     background-color: #eb5b29;
@@ -120,31 +113,39 @@ ul{
     background-color: #414698;
     width: 30px;
     height: 30px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .maximizar{
     background-color: #414698;
     width: 30px;
     height: 30px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cerrar{
     background-color: #414698;
     width: 30px;
     height: 30px;
-    text-align: center;
     margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icons{
     color: aliceblue;
+    font-family: 'Fugaz One', cursive;
 }
 
 .ventana_nombre{
     background-color: aliceblue;
-    height: 380px;
+    height: 330px;
     width: 60%;
     margin-left: 20%;
     margin-bottom: 50px;
@@ -160,7 +161,7 @@ ul{
 .lucas{
     font-family: 'Fugaz One', cursive;
     color: #eb5b29;
-    font-size: 90px;
+    font-size: 80px;
     text-shadow: 0.3rem 0.2rem #ffdd55;
     margin-top: 30px;
 }
@@ -168,7 +169,7 @@ ul{
 .dosdos{
     font-family: 'Fugaz One', cursive;
     color: #ffdd55;
-    font-size: 80px;
+    font-size: 60px;
     text-shadow: -0.3rem 0.1rem #eb5b29;
 }
 
@@ -231,20 +232,26 @@ button svg {
 .minimizar2{
     width: 30px;
     height: 30px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .maximizar2{
     width: 30px;
     height: 30px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cerrar2{
     width: 30px;
     height: 30px;
-    text-align: center;
     margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ventana_perfil img{
@@ -261,7 +268,7 @@ button svg {
     padding: 0.5em 1em;
     position: relative;
     border-radius: 0 0.25em 0.25em 0.25em;
-    height: 30%;
+    height: auto;
     width: 50%;
     display: flex;
     align-items: center;
@@ -294,7 +301,7 @@ button svg {
 .footer_coderhouse{
     color: aliceblue;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
@@ -460,9 +467,10 @@ button svg {
 }
 
 
-.bi{
+.bi-journal, .bi-journal-code, .bi-journal-album, .bi-person, .bi-calendar, .bi-pin-map{
     color: #414698;
     margin-left: 30px;
+    margin-bottom: 5px;
 }
 
 .sobremi_p{
@@ -509,7 +517,6 @@ label {
     color: #414698;
     font-family: 'Roboto', sans-serif;
 }
-
 
 
 /* PORTFOLIO VIDEOS */
@@ -824,7 +831,7 @@ label {
 .contacto_subtitulo{
     color: #ffdd55;
     font-family: 'Fugaz One', cursive;
-    -webkit-text-stroke: 1px #414698;
+    -webkit-text-stroke: 2px #414698;
     font-size: 50px;
    text-shadow: -0.3rem 0.2rem #ea4d2c;
    text-align: center;
@@ -840,49 +847,48 @@ label {
   
 }
 
-.contacto_contenido{
+.container_contacto{
     background-color: white;
-    height: 500px;
+    height: auto;
     width: 50%;
     margin-left: 25%;
     margin-bottom: 70px;
     border: 3px solid #414698;
     border-top: none;
     box-shadow: -10px 12px 0px #ea4d2c;
-    display: flex;
-    padding-top: 20px;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
+    padding: 30px;
 }
 
-.formulario{
-display: flex;
-flex-direction: column;
-width: 80%;
-gap: 10px;
 
+.bi-telephone-fill, .bi-person-fill, .bi-envelope-fill, .bi-chat-left-fill, .bi-linkedin, .bi-behance, .bi-github{
+    color: #414698;
 }
+
+
 
 label{
    color: #414698;
    font-family: 'Roboto', sans-serif;
+   font-size: 0.8rem;
     }
 
 ::placeholder{
-    font-family: 'Roboto', sans-serif;
+    font-family:  font-size: 1rem;'Roboto', sans-serif;
+    font-size: 0.8rem;
 }
 
+.btn{
+    margin-top: 20px;
+    background-color:  #414698 !important;
+}
 
-input, textarea{
-    border: 2px solid #414698;
-    border-radius: 4px;
-    height: 30px;
-    padding: 2px;
-  }
 
 .redes_subtitulo{
     color: #ffdd55;
     font-family: 'Fugaz One', cursive;
-    -webkit-text-stroke: 1px #414698;
+    -webkit-text-stroke: 2px #414698;
     font-size: 45px;
    text-shadow: -0.3rem 0.2rem #ea4d2c;
    text-align: center;
@@ -901,13 +907,15 @@ input, textarea{
 .redes_sociales{
 width: 50%;
 display: flex;
+flex-direction: row;
+gap: 20px;
 justify-content: end;
 margin-right: 40px;
 }
 
 .box4 {
     width: 100%;
-    height: 40px;
+    height: 80px;
     border-radius: 15px;
     background: #e26628;
     font-family: 'Roboto', sans-serif;
@@ -944,8 +952,6 @@ margin-right: 40px;
 
 
 
-
-
  /* MEDIA QUERIS */
 
 
@@ -965,11 +971,11 @@ margin-right: 40px;
             align-content: center;
         }
 
-    .encabezado h3{
+    .encabezado_texto{
         font-size: 13px;
         }
     
-    .encabezado p{
+    .encabezado_estrella{
         font-size: 13px;      
     }
 
@@ -1021,13 +1027,13 @@ margin-right: 40px;
     }
 
     .lucas{
-        font-size: 70px;
+        font-size: 80px;
         text-shadow: 0.2rem 0.1rem #ffdd55;
         margin-top: 20px;
     }
     
     .dosdos{
-        font-size: 60px;
+        font-size: 40px;
         text-shadow: -0.2rem 0.1rem #eb5b29;
     }
 
@@ -1079,7 +1085,7 @@ margin-right: 40px;
      }
     
      .chat-bubble {
-        height: 30%;
+        height: auto;
         width: 70%;
       }
 
@@ -1226,15 +1232,15 @@ margin-right: 40px;
     height: 100%;
 }
 
-/* contacto */
+/* contacto MQ TABLET */
 
 .contacto_barra{
     width: 80%;
     margin-left: 10%;
 }
 
-.contacto_contenido{
-    height: 530px;
+.container_contacto{
+    height: auto;
     width: 80%;
     margin-left: 10%;
     margin-bottom: 50px;
@@ -1268,7 +1274,6 @@ margin-right: 40px;
 
 
 
-
 /* Movil */
 
 @media screen and (max-width: 600px) {
@@ -1289,11 +1294,11 @@ margin-right: 40px;
     flex-direction: column;
 }
 
-    .encabezado h3{
-        font-size: 7px;
+    .encabezado_texto{
+        font-size: 8px;
         }
     
-    .encabezado p{
+    .encabezado_estrella{
         font-size: 7px;      
     }
 
@@ -1355,13 +1360,13 @@ margin-right: 40px;
     }
 
     .lucas{
-        font-size: 35px;
+        font-size: 40px;
         text-shadow: 0.1rem 0.1rem #ffdd55;
         margin-top: 10px;
     }
     
     .dosdos{
-        font-size: 40px;
+        font-size: 30px;
         text-shadow: -0.1rem 0.1rem #eb5b29;
     }
 
@@ -1427,14 +1432,12 @@ button svg {
         font-size: 10px;
     }
 
-/* portfolio */
+/* portfolio  MQ MOBILE*/
 
 
 .estudios_contenido{
     height: auto;
 }
-
-
 
 .portfolio_grid{
     grid-template-columns: 1fr;
@@ -1493,5 +1496,41 @@ button svg {
       height: 200px;
   }
 
+
+  /* contacto MQ movil */
+
+.contacto_barra{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.container_contacto{
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+
+
+.redes_subtitulo{
+    font-size: 40px;
+    margin-bottom: 20px
+}
+
+.redes{
+    width: 90%;
+    height: 100px;
+    margin-left: 5%;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.redes_sociales{
+width: 70%;
+display: flex;
+justify-content: center;
+margin-right: 40px;
+}
 
  }
