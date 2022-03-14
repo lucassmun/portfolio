@@ -21,7 +21,6 @@ background-image: url(../img/fondo.jpg);
 
 
 .header{
-   
     position: sticky;
     top: 0;
     z-index: 1;
@@ -352,7 +351,7 @@ button svg {
     
 .estudios_contenido{
         background-color: aliceblue;
-        height: 340px;
+        height: auto;
         width: 100%;
         border: 2px solid #414698;
         border-top: none;
@@ -377,7 +376,7 @@ button svg {
 
  .perfil_contenido{
         background-color: aliceblue;
-        height: 300px;
+        height: auto;
         width: 100%;
         border: 2px solid #414698;
         border-top: none;
@@ -402,7 +401,7 @@ button svg {
 
  .herramientas_contenido{
         background-color: aliceblue;
-        height: 950px;
+        height: auto;
         width: 100%;
         border: 2px solid #414698;
         border-top: none;
@@ -875,7 +874,7 @@ label{
     }
 
 ::placeholder{
-    font-family:  font-size: 1rem;'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 0.8rem;
 }
 
