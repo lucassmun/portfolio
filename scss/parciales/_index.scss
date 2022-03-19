@@ -1,0 +1,191 @@
+
+.ventana{
+    background-color: #eb5b29;
+    height: 50px;
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 0.3rem;
+    align-items: center;
+    border: 3px solid #414698;
+    box-shadow: 7px 5px 0px #e26628;
+}
+
+.minimizar{
+    background-color: #414698;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.maximizar{
+    background-color: #414698;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cerrar{
+    background-color: #414698;
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    color: aliceblue;
+    font-family: 'Fugaz One', cursive;
+}
+
+.ventana_nombre{
+    background-color: aliceblue;
+    height: 330px;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 50px;
+    border: 3px solid #414698;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    box-shadow: 7px 5px 0px #e26628;
+}
+
+.lucas{
+    font-family: 'Fugaz One', cursive;
+    color: #eb5b29;
+    font-size: 80px;
+    text-shadow: 0.3rem 0.2rem #ffdd55;
+    margin-top: 30px;
+}
+
+.dosdos{
+    font-family: 'Fugaz One', cursive;
+    color: #ffdd55;
+    font-size: 60px;
+    text-shadow: -0.3rem 0.1rem #eb5b29;
+}
+
+.bienvenido{
+    width: 200px;
+    height: 60px;
+    background-color: aliceblue;
+    border: 2px solid #eb5b29;
+    border-radius: 1rem;
+    font-family: 'Fugaz One', cursive;
+    font-size: 25px;
+    color: #eb5b29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button svg {
+    width: 25px;
+    height: 25px;
+   margin-left: 6px;
+    color: #e26628;
+    transition: transform 0.3s;
+ }
+   
+   button:hover svg {
+    transform: scale(1.2);
+}
+
+.ventana2{
+    background-color: #414698;
+    height: 50px;
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 0.3rem;
+    align-items: center;
+    border: 3px solid #414698;
+    box-shadow: 7px 5px 0px #e26628;
+}
+
+.ventana_perfil{
+    background-color: aliceblue;
+    height: 280px;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 50px;
+    border: 3px solid #414698;
+    border-top: none;
+    box-shadow: 7px 5px 0px #e26628;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.minimizar2{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maximizar2{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cerrar2{
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ventana_perfil img{
+    width: 200px;
+    height: 200px;
+ }
+ 
+
+ .chat-bubble {
+    --c: #ff703b;
+    background: var(--c);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.5em 1em;
+    position: relative;
+    border-radius: 0 0.25em 0.25em 0.25em;
+    height: auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+
+  .chat-bubble::after {
+    content: "";
+    position: absolute;
+    border: 0.5em solid transparent;
+    border-top-color: var(--c);
+    border-right-color: var(--c);
+    right: 100%;
+    top: 0%;
+    transform: skewY(20deg);
+    transform-origin: 100% 100%;
+}

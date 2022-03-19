@@ -1,0 +1,62 @@
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.encabezado{
+    background-color: #414698;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    align-items: center !important;
+   
+}
+
+.encabezado_texto{
+    color: #ffdd55;
+    font-family: 'Staatliches', cursive;
+    font-size: 18px;
+   
+}
+
+.encabezado_estrella{
+    color: #eb5b29;
+    font-family: 'Staatliches', cursive;
+    font-size: 18px;  
+}
+
+.logo_marca{
+    color: #ffdd55;
+    font-family: 'Staatliches', cursive; 
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+/* NAV */
+
+.nav-link{
+    text-decoration: none;
+    text-decoration: #fff;
+}
+
+.navbar{
+    background-color: #e26628;
+    margin-bottom: 30px;
+}
+
+a{
+    color: #fff !important;
+}
+
+a:hover{
+    color: #ffdd55 !important;
+}
+
+.dropdown-menu {
+    background-color:#e26628;}

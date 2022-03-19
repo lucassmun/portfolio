@@ -1,0 +1,212 @@
+/* SOBRE MI */
+
+.sobremi_titulo{
+    color: #ffdd55;
+    font-family: 'Fugaz One', cursive;
+    -webkit-text-stroke: 0.01rem #414698;
+    font-size: 75px;
+   text-shadow: -0.5rem 0.3rem #414698;
+   text-align: center;
+}
+
+
+.estudios_barra{
+       background-color:#ffdd55;
+       height: 50px;
+       width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: flex-end;
+       gap: 0.3rem;
+       align-items: center;
+       border: 2px solid #414698;
+       box-shadow: -7px 5px 0px #414698;
+}
+   
+.minimizar3{
+       width: 30px;
+       height: 30px;
+       text-align: center;
+}
+   
+.maximizar3{
+       width: 30px;
+       height: 30px;
+       text-align: center; 
+}
+   
+.cerrar3{
+       width: 30px;
+       height: 30px;
+       text-align: center;
+       margin-right: 1rem;
+}
+   
+   
+.estudios_contenido{
+       background-color: aliceblue;
+       height: auto;
+       width: 100%;
+       border: 2px solid #414698;
+       border-top: none;
+       padding-top: 20px;
+       box-shadow: -7px 5px 0px #414698;
+ }
+   
+
+.perfil_barra{
+       background-color:#ffdd55;
+       height: 50px;
+       width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: flex-end;
+       gap: 0.3rem;
+       align-items: center;
+       border: 2px solid #414698;
+       box-shadow: -7px 5px 0px #414698;
+}
+
+
+.perfil_contenido{
+       background-color: aliceblue;
+       height: auto;
+       width: 100%;
+       border: 2px solid #414698;
+       border-top: none;
+       box-shadow: -7px 5px 0px #414698;
+       padding-top: 20px;
+}
+
+
+.herramientas_barra{
+       background-color:#ffdd55;
+       height: 50px;
+       width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: flex-end;
+       gap: 0.3rem;
+       align-items: center;
+       border: 2px solid #414698;
+       box-shadow: -7px 5px 0px #414698;
+ }
+
+
+.herramientas_contenido{
+       background-color: aliceblue;
+       height: auto;
+       width: 100%;
+       border: 2px solid #414698;
+       border-top: none;
+       box-shadow: -7px 5px 0px #414698;
+       padding-top: 20px;
+
+}
+
+.sobremi{
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: 5rem;
+       margin-top: 5rem;
+       width: 80%;
+       max-height: auto;
+}
+
+.sobremi_grid{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: 100px 1fr 1fr;
+       grid-template-areas: 
+           "titulo2 herramientas2"
+           "estudios2 herramientas2"
+           "perfil2 herramientas2";
+           gap: 20px 40px;
+}
+
+   
+     .titulo{
+           grid-area: titulo2;
+          justify-self: center;
+          align-self: center;
+       }
+
+       .perfil{
+           grid-area: perfil2;
+       }
+
+       .estudios{
+           grid-area: estudios2;
+       }
+
+       .herramientas{
+           grid-area: herramientas2;
+       }
+
+
+.sobremi_items{
+   margin-top: 20px;
+   display: flex;
+   flex-direction: row;
+
+}
+
+.sobremi_subtitulo{
+   color: #414698;
+   font-family: 'Staatliches', cursive;
+   font-size: 30px;
+   margin-bottom: 20px;
+   margin-left: 30px;
+}
+
+
+.bi-journal, .bi-journal-code, .bi-journal-album, .bi-person, .bi-calendar, .bi-pin-map{
+   color: #414698;
+   margin-left: 30px;
+   margin-bottom: 5px;
+}
+
+.sobremi_p{
+   color: #414698;
+   font-family: 'Roboto', sans-serif;
+   margin-bottom: 20px;
+   margin-left: 30px;
+   margin-right: 20px;
+}
+
+label {
+   padding-right: 10px;
+   font-size: 1rem;
+}
+
+.medidor{
+   width: 50%;
+   height: 25px;
+   appearance: none;
+  -webkit-appearance: none;
+
+}
+
+
+.medidor::-webkit-progress-bar {
+   background-color: white;
+   border-radius: 10px;
+   border: 3px solid #414698;
+ }
+
+.medidor::-webkit-progress-value {
+   background-color: #414698;
+   border-radius: 10px;
+   
+ }
+
+.barra{
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-around;
+}
+
+.barra_texto{
+   color: #414698;
+   font-family: 'Roboto', sans-serif;
+}
