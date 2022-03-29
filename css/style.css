@@ -1,3 +1,4 @@
+/* MIXIN FLEX */
 * {
   margin: 0;
   padding: 0; }
@@ -20,11 +21,11 @@
   background-color: #414698;
   width: 100%;
   height: 30px;
-  display: flex;
   flex-flow: row nowrap;
+  display: flex;
   justify-content: space-evenly;
-  margin: 0 auto;
-  align-items: center !important; }
+  align-items: center !important;
+  margin: 0 auto; }
 
 .encabezado_texto {
   color: #ffdd55;
@@ -32,7 +33,7 @@
   font-size: 18px; }
 
 .encabezado_estrella {
-  color: #eb5b29;
+  color: #e26628;
   font-family: 'Staatliches', cursive;
   font-size: 18px; }
 
@@ -61,15 +62,15 @@ a:hover {
   background-color: #e26628; }
 
 .ventana {
-  background-color: #eb5b29;
+  background-color: #e26628;
   height: 50px;
   width: 60%;
   margin-left: 20%;
-  display: flex;
   flex-direction: row;
+  display: flex;
   justify-content: flex-end;
-  gap: 0.3rem;
   align-items: center;
+  gap: 0.3rem;
   border: 3px solid #414698;
   box-shadow: 7px 5px 0px #e26628; }
 
@@ -100,7 +101,7 @@ a:hover {
 
 .icons {
   color: aliceblue;
-  font-family: 'Fugaz One', cursive; }
+  font-family: "Fugaz One", cursive; }
 
 .ventana_nombre {
   background-color: aliceblue;
@@ -117,30 +118,30 @@ a:hover {
   box-shadow: 7px 5px 0px #e26628; }
 
 .lucas {
-  font-family: 'Fugaz One', cursive;
-  color: #eb5b29;
+  font-family: "Fugaz One", cursive;
+  color: #e26628;
   font-size: 80px;
   text-shadow: 0.3rem 0.2rem #ffdd55;
   margin-top: 30px; }
 
 .dosdos {
-  font-family: 'Fugaz One', cursive;
+  font-family: "Fugaz One", cursive;
   color: #ffdd55;
   font-size: 60px;
-  text-shadow: -0.3rem 0.1rem #eb5b29; }
+  text-shadow: -0.3rem 0.1rem #e26628; }
 
 .bienvenido {
   width: 200px;
   height: 60px;
   background-color: aliceblue;
-  border: 2px solid #eb5b29;
+  border: 2px solid #e26628;
   border-radius: 1rem;
-  font-family: 'Fugaz One', cursive;
+  font-family: "Fugaz One", cursive;
   font-size: 25px;
-  color: #eb5b29;
+  color: #e26628;
   display: flex;
-  align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center; }
 
 button svg {
   width: 25px;
@@ -157,11 +158,11 @@ button:hover svg {
   height: 50px;
   width: 70%;
   margin-left: 15%;
-  display: flex;
   flex-direction: row;
+  display: flex;
   justify-content: flex-end;
-  gap: 0.3rem;
   align-items: center;
+  gap: 0.3rem;
   border: 3px solid #414698;
   box-shadow: 7px 5px 0px #e26628; }
 
@@ -174,11 +175,11 @@ button:hover svg {
   border: 3px solid #414698;
   border-top: none;
   box-shadow: 7px 5px 0px #e26628;
-  display: flex;
   flex-direction: row;
-  gap: 2rem;
+  display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  gap: 2rem; }
 
 .minimizar2 {
   width: 30px;
@@ -210,7 +211,7 @@ button:hover svg {
   --c: #ff703b;
   background: var(--c);
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 0.5em 1em;
   position: relative;
   border-radius: 0 0.25em 0.25em 0.25em;
@@ -233,7 +234,7 @@ button:hover svg {
 /* SOBRE MI */
 .sobremi_titulo {
   color: #ffdd55;
-  font-family: 'Fugaz One', cursive;
+  font-family: "Fugaz One", cursive;
   -webkit-text-stroke: 0.01rem #414698;
   font-size: 75px;
   text-shadow: -0.5rem 0.3rem #414698;
@@ -243,11 +244,11 @@ button:hover svg {
   background-color: #ffdd55;
   height: 50px;
   width: 100%;
-  display: flex;
   flex-direction: row;
+  display: flex;
   justify-content: flex-end;
-  gap: 0.3rem;
   align-items: center;
+  gap: 0.3rem;
   border: 2px solid #414698;
   box-shadow: -7px 5px 0px #414698; }
 
@@ -280,11 +281,11 @@ button:hover svg {
   background-color: #ffdd55;
   height: 50px;
   width: 100%;
-  display: flex;
   flex-direction: row;
+  display: flex;
   justify-content: flex-end;
-  gap: 0.3rem;
   align-items: center;
+  gap: 0.3rem;
   border: 2px solid #414698;
   box-shadow: -7px 5px 0px #414698; }
 
@@ -301,11 +302,11 @@ button:hover svg {
   background-color: #ffdd55;
   height: 50px;
   width: 100%;
-  display: flex;
   flex-direction: row;
+  display: flex;
   justify-content: flex-end;
-  gap: 0.3rem;
   align-items: center;
+  gap: 0.3rem;
   border: 2px solid #414698;
   box-shadow: -7px 5px 0px #414698; }
 
@@ -397,7 +398,7 @@ label {
 
 .barra_texto {
   color: #414698;
-  font-family: 'Roboto', sans-serif; }
+  font-family: "Roboto", sans-serif; }
 
 /* PORTFOLIO VIDEOS */
 .portfolio_barra {
@@ -425,7 +426,7 @@ label {
 
 .portfolio_subtitulo {
   color: #ffdd55;
-  font-family: 'Fugaz One', cursive;
+  font-family: "Fugaz One", cursive;
   -webkit-text-stroke: 0.01px #414698;
   font-size: 70px;
   text-shadow: -0.3rem 0.2rem #414698;
@@ -433,7 +434,7 @@ label {
 
 .trabajo_titulo {
   color: #ffdd55;
-  font-family: 'Fugaz One', cursive;
+  font-family: "Fugaz One", cursive;
   -webkit-text-stroke: 0.01px #414698;
   font-size: 50px;
   text-shadow: -0.3rem 0.1rem #414698;
@@ -449,7 +450,7 @@ label {
 
 .trabajo_subtitulo {
   color: #e26628;
-  font-family: 'Fugaz One', cursive;
+  font-family: "Fugaz One", cursive;
   -webkit-text-stroke: 0.01px #414698;
   font-size: 50px;
   text-shadow: -0.3rem 0.1rem #fff;
@@ -460,7 +461,7 @@ label {
   --c: #414698;
   background: var(--c);
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 0.5em 1em;
   position: relative;
   border-radius: 0 0.25em 0.25em 0.25em;
@@ -483,7 +484,7 @@ label {
 
 .portfolio_subtitulo2 {
   color: #ffdd55;
-  font-family: 'Fugaz One', cursive;
+  font-family: "Fugaz One", cursive;
   -webkit-text-stroke: 0.01px #414698;
   font-size: 40px;
   text-shadow: -0.3rem 0.2rem #414698;
@@ -495,7 +496,7 @@ label {
   height: auto;
   border-radius: 15px;
   background: #e26628;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -533,10 +534,10 @@ label {
 /* CONTACTO */
 .contacto_subtitulo {
   color: #ffdd55;
-  font-family: 'Fugaz One', cursive;
+  font-family: "Fugaz One", cursive;
   -webkit-text-stroke: 2px #414698;
   font-size: 50px;
-  text-shadow: -0.3rem 0.2rem #ea4d2c;
+  text-shadow: -0.3rem 0.2rem #e26628;
   text-align: center; }
 
 .contacto_barra {
@@ -545,7 +546,7 @@ label {
   width: 50%;
   margin-left: 25%;
   border: 3px solid #414698;
-  box-shadow: -10px 12px 0px #ea4d2c; }
+  box-shadow: -10px 12px 0px #e26628; }
 
 .container_contacto {
   background-color: white;
@@ -555,7 +556,7 @@ label {
   margin-bottom: 70px;
   border: 3px solid #414698;
   border-top: none;
-  box-shadow: -10px 12px 0px #ea4d2c;
+  box-shadow: -10px 12px 0px #e26628;
   padding: 30px; }
 
 .bi-telephone-fill, .bi-person-fill, .bi-envelope-fill, .bi-chat-left-fill, .bi-linkedin, .bi-behance, .bi-github {
@@ -563,11 +564,11 @@ label {
 
 label {
   color: #414698;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 0.8rem; }
 
 ::placeholder {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 0.8rem; }
 
 .btn {
@@ -576,10 +577,10 @@ label {
 
 .redes_subtitulo {
   color: #ffdd55;
-  font-family: 'Fugaz One', cursive;
+  font-family: "Fugaz One", cursive;
   -webkit-text-stroke: 2px #414698;
   font-size: 45px;
-  text-shadow: -0.3rem 0.2rem #ea4d2c;
+  text-shadow: -0.3rem 0.2rem #e26628;
   text-align: center; }
 
 .redes {
@@ -593,10 +594,11 @@ label {
 
 .redes_sociales {
   width: 50%;
-  display: flex;
   flex-direction: row;
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
   gap: 20px;
-  justify-content: end;
   margin-right: 40px; }
 
 .box4 {
@@ -604,7 +606,7 @@ label {
   height: 80px;
   border-radius: 15px;
   background: #e26628;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -625,7 +627,7 @@ label {
 .contacto_enviar {
   background-color: #414698;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Fugaz One", cursive;
   width: 100px;
   height: 30px;
   display: flex;
@@ -644,7 +646,7 @@ label {
 
 .footer_coderhouse {
   color: aliceblue;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px; }
 
 /* MEDIA QUERIS */

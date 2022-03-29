@@ -4,14 +4,14 @@
     background-color:#70b72d;
     height: 20px;
     width: 100%;
-    border: 2px solid #414698;
-    box-shadow: -7px 12px 0px #414698;
+    border: 2px solid $color-azul;
+    box-shadow: -7px 12px 0px $color-azul;
   
 }
 
 .video_video{
     width: 80%;
-    box-shadow: 8px 6px 0px #e26628;
+    box-shadow: 8px 6px 0px $color-naranja;
     margin-left: 10%;
 }
 
@@ -21,46 +21,44 @@
     background-color: aliceblue;
     height: 200px;
     width: 100%;
-    border: 2px solid #414698;
+    border: 2px solid $color-azul;
     border-top: none;
-    box-shadow: -7px 12px 0px #414698;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    box-shadow: -7px 12px 0px $color-azul;
+    @include crearFlex(center, center);
 }
 
 .portfolio_subtitulo{
-    color: #ffdd55;
-    font-family: 'Fugaz One', cursive;
-    -webkit-text-stroke: 0.01px #414698;
+    color: $color-amarillo;
+    font-family: $fuente-titulos;
+    -webkit-text-stroke: 0.01px $color-azul;
     font-size: 70px;
-   text-shadow: -0.3rem 0.2rem #414698;
-   text-align: center;
+    text-shadow: -0.3rem 0.2rem $color-azul;
+    text-align: center;
 }
 
 
 .trabajo_titulo{
-    color: #ffdd55;
-    font-family: 'Fugaz One', cursive;
-    -webkit-text-stroke: 0.01px #414698;
+     color: $color-amarillo;
+     font-family: $fuente-titulos;
+    -webkit-text-stroke: 0.01px $color-azul;
     font-size: 50px;
-   text-shadow: -0.3rem 0.1rem #414698;
-   text-align: center;
+    text-shadow: -0.3rem 0.1rem $color-azul;
+    text-align: center;
 }
 
 .trabajo_container{
     width: 90%;
     height: auto;
     margin-left: 5%;
-    background-color: #ffdd55;
-    border: 4px solid #414698;
+    background-color: $color-amarillo;
+    border: 4px solid $color-azul;
     padding: 20px;
 }
 
 .trabajo_subtitulo{
-    color: #e26628;
-    font-family: 'Fugaz One', cursive;
-    -webkit-text-stroke: 0.01px #414698;
+    color: $color-naranja;
+    font-family: $fuente-titulos;
+    -webkit-text-stroke: 0.01px $color-azul;
     font-size: 50px;
     text-shadow: -0.3rem 0.1rem #fff;
     text-align: center;
@@ -71,7 +69,7 @@
     --c: #414698;
     background: var(--c);
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: $fuente-textos;
     padding: 0.5em 1em;
     position: relative;
     border-radius: 0 0.25em 0.25em 0.25em;
@@ -96,11 +94,11 @@
 
 
 .portfolio_subtitulo2{
-    color: #ffdd55;
-    font-family: 'Fugaz One', cursive;
-    -webkit-text-stroke: 0.01px #414698;
+    color: $color-amarillo;
+    font-family: $fuente-titulos;
+    -webkit-text-stroke: 0.01px $color-azul;
     font-size: 40px;
-    text-shadow: -0.3rem 0.2rem #414698;
+    text-shadow: -0.3rem 0.2rem $color-azul;
     text-align: center;
 }
 
@@ -110,8 +108,8 @@
     margin-left: 10%;
     height: auto;
     border-radius: 15px;
-    background: #e26628;
-    font-family: 'Roboto', sans-serif;
+    background: $color-naranja;
+    font-family: $fuente-textos;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -124,8 +122,8 @@
     height: 0px;
     position: absolute;
     border-left: 15px solid transparent;
-    border-right: 15px solid #e26628;
-    border-top: 15px solid #e26628;
+    border-right: 15px solid $color-naranja;
+    border-top: 15px solid $color-naranja;
     border-bottom: 15px solid transparent;
     left: -16px;
     top: 0px;
@@ -136,10 +134,8 @@
       width: 90%;
       margin-left: 5%;
       height: 500px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      box-shadow: 4px 4px 0px #e26628;
+      @include crearFlex(center, center);
+      box-shadow: 4px 4px 0px $color-naranja;
   }
 
   .imagen_web{

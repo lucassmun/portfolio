@@ -1,16 +1,14 @@
 /* FOOTER */
 
 .footer{
-    background-color: #414698;
+    background-color: $color-azul;
     height: 70px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include crearFlex(center, center);
 }
 
 .footer_coderhouse{
     color: aliceblue;
-    font-family: 'Roboto', sans-serif;
+    font-family: $fuente-textos;
     font-size: 15px;
 }

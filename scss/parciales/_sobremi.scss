@@ -1,26 +1,24 @@
 /* SOBRE MI */
 
 .sobremi_titulo{
-    color: #ffdd55;
-    font-family: 'Fugaz One', cursive;
-    -webkit-text-stroke: 0.01rem #414698;
+    color: $color-amarillo;
+    font-family: $fuente-titulos;
+    -webkit-text-stroke: 0.01rem $color-azul;
     font-size: 75px;
-   text-shadow: -0.5rem 0.3rem #414698;
-   text-align: center;
+    text-shadow: -0.5rem 0.3rem $color-azul;
+    text-align: center;
 }
 
 
 .estudios_barra{
-       background-color:#ffdd55;
+       background-color: $color-amarillo;
        height: 50px;
        width: 100%;
-       display: flex;
        flex-direction: row;
-       justify-content: flex-end;
+       @include crearFlex(flex-end, center);
        gap: 0.3rem;
-       align-items: center;
-       border: 2px solid #414698;
-       box-shadow: -7px 5px 0px #414698;
+       border: 2px solid $color-azul;
+       box-shadow: -7px 5px 0px $color-azul;
 }
    
 .minimizar3{
@@ -47,24 +45,22 @@
        background-color: aliceblue;
        height: auto;
        width: 100%;
-       border: 2px solid #414698;
+       border: 2px solid $color-azul;
        border-top: none;
        padding-top: 20px;
-       box-shadow: -7px 5px 0px #414698;
+       box-shadow: -7px 5px 0px $color-azul;
  }
    
 
 .perfil_barra{
-       background-color:#ffdd55;
+       background-color: $color-amarillo;
        height: 50px;
        width: 100%;
-       display: flex;
        flex-direction: row;
-       justify-content: flex-end;
+       @include crearFlex(flex-end, center);
        gap: 0.3rem;
-       align-items: center;
-       border: 2px solid #414698;
-       box-shadow: -7px 5px 0px #414698;
+       border: 2px solid $color-azul;
+       box-shadow: -7px 5px 0px $color-azul;
 }
 
 
@@ -72,24 +68,22 @@
        background-color: aliceblue;
        height: auto;
        width: 100%;
-       border: 2px solid #414698;
+       border: 2px solid $color-azul;
        border-top: none;
-       box-shadow: -7px 5px 0px #414698;
+       box-shadow: -7px 5px 0px $color-azul;
        padding-top: 20px;
 }
 
 
 .herramientas_barra{
-       background-color:#ffdd55;
+       background-color: $color-amarillo;
        height: 50px;
        width: 100%;
-       display: flex;
        flex-direction: row;
-       justify-content: flex-end;
+       @include crearFlex(flex-end, center);
        gap: 0.3rem;
-       align-items: center;
-       border: 2px solid #414698;
-       box-shadow: -7px 5px 0px #414698;
+       border: 2px solid $color-azul;
+       box-shadow: -7px 5px 0px $color-azul;
  }
 
 
@@ -97,9 +91,9 @@
        background-color: aliceblue;
        height: auto;
        width: 100%;
-       border: 2px solid #414698;
+       border: 2px solid $color-azul;
        border-top: none;
-       box-shadow: -7px 5px 0px #414698;
+       box-shadow: -7px 5px 0px $color-azul;
        padding-top: 20px;
 
 }
@@ -152,7 +146,7 @@
 }
 
 .sobremi_subtitulo{
-   color: #414698;
+   color: $color-azul;
    font-family: 'Staatliches', cursive;
    font-size: 30px;
    margin-bottom: 20px;
@@ -161,13 +155,13 @@
 
 
 .bi-journal, .bi-journal-code, .bi-journal-album, .bi-person, .bi-calendar, .bi-pin-map{
-   color: #414698;
+   color: $color-azul;
    margin-left: 30px;
    margin-bottom: 5px;
 }
 
 .sobremi_p{
-   color: #414698;
+   color: $color-azul;
    font-family: 'Roboto', sans-serif;
    margin-bottom: 20px;
    margin-left: 30px;
@@ -191,11 +185,11 @@ label {
 .medidor::-webkit-progress-bar {
    background-color: white;
    border-radius: 10px;
-   border: 3px solid #414698;
+   border: 3px solid $color-azul;
  }
 
 .medidor::-webkit-progress-value {
-   background-color: #414698;
+   background-color: $color-azul;
    border-radius: 10px;
    
  }
@@ -207,6 +201,6 @@ label {
 }
 
 .barra_texto{
-   color: #414698;
-   font-family: 'Roboto', sans-serif;
+   color: $color-azul;
+   font-family: $fuente-textos;
 }

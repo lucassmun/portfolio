@@ -1,21 +1,21 @@
 /* CONTACTO */
 
 .contacto_subtitulo{
-    color: #ffdd55;
-    font-family: 'Fugaz One', cursive;
-    -webkit-text-stroke: 2px #414698;
+    color: $color-amarillo;
+    font-family: $fuente-titulos;
+    -webkit-text-stroke: 2px $color-azul;
     font-size: 50px;
-   text-shadow: -0.3rem 0.2rem #ea4d2c;
-   text-align: center;
+    text-shadow: -0.3rem 0.2rem $color-naranja;
+    text-align: center;
 }
 
 .contacto_barra{
-    background-color: #414698;
+    background-color: $color-azul;
     height: 30px;
     width: 50%;
     margin-left: 25%;
-    border: 3px solid #414698;
-    box-shadow: -10px 12px 0px #ea4d2c;
+    border: 3px solid $color-azul;
+    box-shadow: -10px 12px 0px $color-naranja;
   
 }
 
@@ -25,43 +25,43 @@
     width: 50%;
     margin-left: 25%;
     margin-bottom: 70px;
-    border: 3px solid #414698;
+    border: 3px solid $color-azul;
     border-top: none;
-    box-shadow: -10px 12px 0px #ea4d2c;
+    box-shadow: -10px 12px 0px $color-naranja;
     padding: 30px;
 }
 
 
 .bi-telephone-fill, .bi-person-fill, .bi-envelope-fill, .bi-chat-left-fill, .bi-linkedin, .bi-behance, .bi-github{
-    color: #414698;
+    color: $color-azul;
 }
 
 
 
 label{
-   color: #414698;
-   font-family: 'Roboto', sans-serif;
+   color: $color-azul;
+   font-family: $fuente-textos;
    font-size: 0.8rem;
     }
 
 ::placeholder{
-    font-family: 'Roboto', sans-serif;
+    font-family: $fuente-textos;
     font-size: 0.8rem;
 }
 
 .btn{
     margin-top: 20px;
-    background-color:  #414698 !important;
+    background-color:  $color-azul !important;
 }
 
 
 .redes_subtitulo{
-    color: #ffdd55;
-    font-family: 'Fugaz One', cursive;
-    -webkit-text-stroke: 2px #414698;
+    color: $color-amarillo;
+    font-family: $fuente-titulos;
+    -webkit-text-stroke: 2px $color-azul;
     font-size: 45px;
-   text-shadow: -0.3rem 0.2rem #ea4d2c;
-   text-align: center;
+    text-shadow: -0.3rem 0.2rem $color-naranja;
+    text-align: center;
 }
 
 .redes{
@@ -76,10 +76,9 @@ label{
 
 .redes_sociales{
 width: 50%;
-display: flex;
 flex-direction: row;
+@include crearFlex(flex-end, stretch);
 gap: 20px;
-justify-content: end;
 margin-right: 40px;
 }
 
@@ -87,8 +86,8 @@ margin-right: 40px;
     width: 100%;
     height: 80px;
     border-radius: 15px;
-    background: #e26628;
-    font-family: 'Roboto', sans-serif;
+    background: $color-naranja;
+    font-family: $fuente-textos;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -101,21 +100,19 @@ margin-right: 40px;
     height: 0px;
     position: absolute;
     border-left: 15px solid transparent;
-    border-right: 15px solid #e26628;
-    border-top: 15px solid #e26628;
+    border-right: 15px solid $color-naranja;
+    border-top: 15px solid $color-naranja;
     border-bottom: 15px solid transparent;
     left: -16px;
     top: 0px;
   }
 
   .contacto_enviar{
-     background-color: #414698;
+     background-color: $color-azul;
      color: #fff;
-     font-family: 'Roboto', sans-serif;
+     font-family: $fuente-titulos;
      width: 100px;
      height: 30px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
+     @include crearFlex(center, center);
      border-radius: 5px;
   }

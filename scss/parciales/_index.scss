@@ -1,50 +1,41 @@
 
 .ventana{
-    background-color: #eb5b29;
+    background-color: $color-naranja;
     height: 50px;
     width: 60%;
     margin-left: 20%;
-    display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    @include crearFlex(flex-end, center);
     gap: 0.3rem;
-    align-items: center;
-    border: 3px solid #414698;
-    box-shadow: 7px 5px 0px #e26628;
+    border: 3px solid $color-azul;
+    box-shadow: 7px 5px 0px $color-naranja;
 }
 
 .minimizar{
-    background-color: #414698;
+    background-color: $color-azul;
     width: 30px;
     height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    @include crearFlex(center, center);
 }
 
 .maximizar{
-    background-color: #414698;
+    background-color: $color-azul;
     width: 30px;
     height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include crearFlex(center, center);
 }
 
 .cerrar{
-    background-color: #414698;
+    background-color: $color-azul;
     width: 30px;
     height: 30px;
     margin-right: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include crearFlex(center, center);
 }
 
 .icons{
     color: aliceblue;
-    font-family: 'Fugaz One', cursive;
+    font-family: $fuente-titulos;
 }
 
 .ventana_nombre{
@@ -53,49 +44,47 @@
     width: 60%;
     margin-left: 20%;
     margin-bottom: 50px;
-    border: 3px solid #414698;
+    border: 3px solid $color-azul;
     border-top: none;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
-    box-shadow: 7px 5px 0px #e26628;
+    box-shadow: 7px 5px 0px $color-naranja;
 }
 
 .lucas{
-    font-family: 'Fugaz One', cursive;
-    color: #eb5b29;
+    font-family: $fuente-titulos;
+    color: $color-naranja;
     font-size: 80px;
-    text-shadow: 0.3rem 0.2rem #ffdd55;
+    text-shadow: 0.3rem 0.2rem $color-amarillo;
     margin-top: 30px;
 }
 
 .dosdos{
-    font-family: 'Fugaz One', cursive;
-    color: #ffdd55;
+    font-family: $fuente-titulos;
+    color: $color-amarillo;
     font-size: 60px;
-    text-shadow: -0.3rem 0.1rem #eb5b29;
+    text-shadow: -0.3rem 0.1rem $color-naranja;
 }
 
 .bienvenido{
     width: 200px;
     height: 60px;
     background-color: aliceblue;
-    border: 2px solid #eb5b29;
+    border: 2px solid $color-naranja;
     border-radius: 1rem;
-    font-family: 'Fugaz One', cursive;
+    font-family: $fuente-titulos;
     font-size: 25px;
-    color: #eb5b29;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color: $color-naranja;
+    @include crearFlex(center, center);
 }
 
 button svg {
     width: 25px;
     height: 25px;
-   margin-left: 6px;
-    color: #e26628;
+    margin-left: 6px;
+    color: $color-naranja;
     transition: transform 0.3s;
  }
    
@@ -104,17 +93,15 @@ button svg {
 }
 
 .ventana2{
-    background-color: #414698;
+    background-color: $color-azul;
     height: 50px;
     width: 70%;
     margin-left: 15%;
-    display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    @include crearFlex(flex-end, center);
     gap: 0.3rem;
-    align-items: center;
-    border: 3px solid #414698;
-    box-shadow: 7px 5px 0px #e26628;
+    border: 3px solid $color-azul;
+    box-shadow: 7px 5px 0px $color-naranja;
 }
 
 .ventana_perfil{
@@ -123,39 +110,31 @@ button svg {
     width: 70%;
     margin-left: 15%;
     margin-bottom: 50px;
-    border: 3px solid #414698;
+    border: 3px solid $color-azul;
     border-top: none;
-    box-shadow: 7px 5px 0px #e26628;
-    display: flex;
+    box-shadow: 7px 5px 0px $color-naranja;
     flex-direction: row;
+    @include crearFlex(center, center);
     gap: 2rem;
-    justify-content: center;
-    align-items: center;
 }
 
 .minimizar2{
     width: 30px;
     height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include crearFlex(center, center);
 }
 
 .maximizar2{
     width: 30px;
     height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include crearFlex(center, center);
 }
 
 .cerrar2{
     width: 30px;
     height: 30px;
     margin-right: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include crearFlex(center, center);
 }
 
 .ventana_perfil img{
@@ -168,7 +147,7 @@ button svg {
     --c: #ff703b;
     background: var(--c);
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: $fuente-textos;
     padding: 0.5em 1em;
     position: relative;
     border-radius: 0 0.25em 0.25em 0.25em;
