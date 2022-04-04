@@ -48,9 +48,6 @@
   text-decoration: none;
   text-decoration: #fff; }
 
-.nav-link.active {
-  color: #ffdd55 !important; }
-
 .navbar {
   background-color: #e26628;
   margin-bottom: 30px; }
@@ -63,12 +60,6 @@ a:hover {
 
 .dropdown-menu {
   background-color: #e26628; }
-
-.carita:hover {
-  transform: scale(1.2); }
-
-.carita2:hover {
-  transform: scale(1.2); }
 
 .ventana {
   background-color: #e26628;
@@ -114,7 +105,7 @@ a:hover {
 
 .ventana_nombre {
   background-color: aliceblue;
-  height: 310px;
+  height: 330px;
   width: 60%;
   margin-left: 20%;
   margin-bottom: 50px;
@@ -123,7 +114,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.3rem;
+  gap: 0.5rem;
   box-shadow: 7px 5px 0px #e26628;
   position: relative; }
 
@@ -134,21 +125,7 @@ a:hover {
   text-shadow: 0.3rem 0.2rem #ffdd55;
   margin-top: 30px; }
 
-.ventana_carita {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  left: -50px;
-  top: 130px; }
 
-/*    .ventana_destello{
-    width: 130px;
-    height: 130px;
-    position: absolute;
-    left: 570px;
-    top: 130px;
-   }
- */
 .dosdos {
   font-family: "Fugaz One", cursive;
   color: #ffdd55;
@@ -356,7 +333,9 @@ button:hover svg {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 100px 1fr 1fr;
-  grid-template-areas: "titulo2 herramientas2" "estudios2 herramientas2" "perfil2 herramientas2";
+  grid-template-areas: "titulo2 herramientas2"
+ "estudios2 herramientas2"
+ "perfil2 herramientas2";
   gap: 20px 40px; }
 
 .titulo {
@@ -380,7 +359,7 @@ button:hover svg {
 
 .sobremi_subtitulo {
   color: #414698;
-  font-family: "Fugaz One", cursive;
+  font-family: 'Staatliches', cursive;
   font-size: 30px;
   margin-bottom: 20px;
   margin-left: 30px; }
@@ -584,9 +563,9 @@ label {
   box-shadow: -10px 12px 0px #e26628;
   padding: 30px; }
 
-/* .bi-telephone-fill, .bi-person-fill, .bi-envelope-fill, .bi-chat-left-fill, .bi-linkedin, .bi-behance, .bi-github{
-    color: $color-azul;
-} */
+.bi-telephone-fill, .bi-person-fill, .bi-envelope-fill, .bi-chat-left-fill, .bi-linkedin, .bi-behance, .bi-github {
+  color: #414698; }
+
 label {
   color: #414698;
   font-family: "Roboto", sans-serif;
@@ -626,12 +605,6 @@ label {
   gap: 20px;
   margin-right: 40px; }
 
-.redes_sociales svg {
-  color: #414698; }
-
-.redes_sociales svg:hover {
-  color: #e26628; }
-
 .box4 {
   width: 100%;
   height: 80px;
@@ -668,27 +641,17 @@ label {
 
 /* FOOTER */
 .footer {
-  color: white;
   background-color: #414698;
   height: 70px;
   width: 100%;
-  gap: 10px;
-  flex-direction: row;
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.titulo_footer {
-  font-family: "Fugaz One", cursive;
-  font-size: 16px;
-  margin-bottom: -5px; }
-
-.footer_redes {
-  display: flex;
-  gap: 10px; }
-
-svg:hover {
-  transform: scale(1.2); }
+.footer_coderhouse {
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px; }
 
 /* MEDIA QUERIS */
 /* Tablet */
@@ -697,7 +660,10 @@ svg:hover {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
-    grid-template-areas: "titulo2" "estudios2" "perfil2" "herramientas2";
+    grid-template-areas: "titulo2"
+ "estudios2"
+ "perfil2"
+ "herramientas2";
     align-content: center; }
   .encabezado_texto {
     font-size: 13px; }
@@ -786,7 +752,11 @@ svg:hover {
   .portfolio_grid2 {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto auto;
-    grid-template-areas: "videos" "globo" "titulo" "globo2" "videos2";
+    grid-template-areas: "videos"
+ "globo"
+ "titulo"
+ "globo2"
+ "videos2";
     gap: 60px;
     align-items: center;
     justify-content: center; }
@@ -842,12 +812,6 @@ svg:hover {
 
 /* Movil */
 @media screen and (max-width: 600px) {
-  .ventana_carita {
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    left: -35px;
-    top: 70px; }
   .sobremi_titulo {
     font-size: 60px; }
   .carita, .carita2 {
