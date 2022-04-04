@@ -356,9 +356,7 @@ button:hover svg {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 100px 1fr 1fr;
-  grid-template-areas: "titulo2 herramientas2"
- "estudios2 herramientas2"
- "perfil2 herramientas2";
+  grid-template-areas: "titulo2 herramientas2" "estudios2 herramientas2" "perfil2 herramientas2";
   gap: 20px 40px; }
 
 .titulo {
@@ -699,10 +697,7 @@ svg:hover {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
-    grid-template-areas: "titulo2"
- "estudios2"
- "perfil2"
- "herramientas2";
+    grid-template-areas: "titulo2" "estudios2" "perfil2" "herramientas2";
     align-content: center; }
   .encabezado_texto {
     font-size: 13px; }
@@ -791,11 +786,7 @@ svg:hover {
   .portfolio_grid2 {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto auto;
-    grid-template-areas: "videos"
- "globo"
- "titulo"
- "globo2"
- "videos2";
+    grid-template-areas: "videos" "globo" "titulo" "globo2" "videos2";
     gap: 60px;
     align-items: center;
     justify-content: center; }
