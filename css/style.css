@@ -48,6 +48,9 @@
   text-decoration: none;
   text-decoration: #fff; }
 
+.nav-link.active {
+  color: #ffdd55 !important; }
+
 .navbar {
   background-color: #e26628;
   margin-bottom: 30px; }
@@ -60,6 +63,12 @@ a:hover {
 
 .dropdown-menu {
   background-color: #e26628; }
+
+.carita:hover {
+  transform: scale(1.2); }
+
+.carita2:hover {
+  transform: scale(1.2); }
 
 .ventana {
   background-color: #e26628;
@@ -105,7 +114,7 @@ a:hover {
 
 .ventana_nombre {
   background-color: aliceblue;
-  height: 330px;
+  height: 310px;
   width: 60%;
   margin-left: 20%;
   margin-bottom: 50px;
@@ -114,8 +123,9 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
-  box-shadow: 7px 5px 0px #e26628; }
+  gap: 0.3rem;
+  box-shadow: 7px 5px 0px #e26628;
+  position: relative; }
 
 .lucas {
   font-family: "Fugaz One", cursive;
@@ -124,6 +134,21 @@ a:hover {
   text-shadow: 0.3rem 0.2rem #ffdd55;
   margin-top: 30px; }
 
+.ventana_carita {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: -50px;
+  top: 130px; }
+
+/*    .ventana_destello{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    left: 570px;
+    top: 130px;
+   }
+ */
 .dosdos {
   font-family: "Fugaz One", cursive;
   color: #ffdd55;
@@ -355,7 +380,7 @@ button:hover svg {
 
 .sobremi_subtitulo {
   color: #414698;
-  font-family: 'Staatliches', cursive;
+  font-family: "Fugaz One", cursive;
   font-size: 30px;
   margin-bottom: 20px;
   margin-left: 30px; }
@@ -559,9 +584,9 @@ label {
   box-shadow: -10px 12px 0px #e26628;
   padding: 30px; }
 
-.bi-telephone-fill, .bi-person-fill, .bi-envelope-fill, .bi-chat-left-fill, .bi-linkedin, .bi-behance, .bi-github {
-  color: #414698; }
-
+/* .bi-telephone-fill, .bi-person-fill, .bi-envelope-fill, .bi-chat-left-fill, .bi-linkedin, .bi-behance, .bi-github{
+    color: $color-azul;
+} */
 label {
   color: #414698;
   font-family: "Roboto", sans-serif;
@@ -601,6 +626,12 @@ label {
   gap: 20px;
   margin-right: 40px; }
 
+.redes_sociales svg {
+  color: #414698; }
+
+.redes_sociales svg:hover {
+  color: #e26628; }
+
 .box4 {
   width: 100%;
   height: 80px;
@@ -637,17 +668,27 @@ label {
 
 /* FOOTER */
 .footer {
+  color: white;
   background-color: #414698;
   height: 70px;
   width: 100%;
+  gap: 10px;
+  flex-direction: row;
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.footer_coderhouse {
-  color: aliceblue;
-  font-family: "Roboto", sans-serif;
-  font-size: 15px; }
+.titulo_footer {
+  font-family: "Fugaz One", cursive;
+  font-size: 16px;
+  margin-bottom: -5px; }
+
+.footer_redes {
+  display: flex;
+  gap: 10px; }
+
+svg:hover {
+  transform: scale(1.2); }
 
 /* MEDIA QUERIS */
 /* Tablet */
@@ -801,6 +842,12 @@ label {
 
 /* Movil */
 @media screen and (max-width: 600px) {
+  .ventana_carita {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: -35px;
+    top: 70px; }
   .sobremi_titulo {
     font-size: 60px; }
   .carita, .carita2 {

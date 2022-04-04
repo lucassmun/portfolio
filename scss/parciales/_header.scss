@@ -42,6 +42,11 @@
     text-decoration: #fff;
 }
 
+.nav-link.active {
+   color: $color-amarillo !important;
+  }
+
+
 .navbar{
     background-color: $color-naranja;
     margin-bottom: 30px;
@@ -57,3 +62,15 @@ a:hover{
 
 .dropdown-menu {
     background-color: $color-naranja;}
+
+
+.carita:hover{
+        transform: scale(1.2);  
+}
+
+.carita2:hover{
+    transform: scale(1.2);  
+}
+
+
+

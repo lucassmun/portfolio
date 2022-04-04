@@ -32,9 +32,9 @@
 }
 
 
-.bi-telephone-fill, .bi-person-fill, .bi-envelope-fill, .bi-chat-left-fill, .bi-linkedin, .bi-behance, .bi-github{
+/* .bi-telephone-fill, .bi-person-fill, .bi-envelope-fill, .bi-chat-left-fill, .bi-linkedin, .bi-behance, .bi-github{
     color: $color-azul;
-}
+} */
 
 
 
@@ -80,6 +80,14 @@ flex-direction: row;
 @include crearFlex(flex-end, stretch);
 gap: 20px;
 margin-right: 40px;
+}
+
+.redes_sociales svg{
+    color: $color-azul;
+}
+
+.redes_sociales svg:hover{
+color: $color-naranja;
 }
 
 .box4 {

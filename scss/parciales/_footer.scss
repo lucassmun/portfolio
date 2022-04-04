@@ -1,14 +1,27 @@
 /* FOOTER */
 
 .footer{
+    color: white;
     background-color: $color-azul;
     height: 70px;
     width: 100%;
+    gap: 10px;
+    flex-direction: row;
     @include crearFlex(center, center);
 }
 
-.footer_coderhouse{
-    color: aliceblue;
-    font-family: $fuente-textos;
-    font-size: 15px;
+.titulo_footer{
+    font-family: $fuente-titulos;
+    font-size: 16px;
+    margin-bottom: -5px;
 }
+
+.footer_redes{
+    display: flex;
+    gap: 10px;
+}
+
+svg:hover  {
+    transform: scale(1.2);
+}
+
