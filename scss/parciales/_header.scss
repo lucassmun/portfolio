@@ -17,8 +17,7 @@
 .encabezado_texto{
     color: $color-amarillo;
     font-family: 'Staatliches', cursive;
-    font-size: 18px;
-   
+    font-size: 19px;
 }
 
 .encabezado_estrella{
@@ -47,30 +46,53 @@
   }
 
 
-.navbar{
+.navbar-expand-lg{
     background-color: $color-naranja;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    height: 60px;
 }
 
-a{
+.navbar-toggler{
+ color: $color-naranja !important;
+ background-color: $color-amarillo !important;
+ width: 40px;
+ height: 30px;
+}
+
+.navbar-toggler-icon{
+    background-color: $color-amarillo;
+    width: 15px;
+    height: 20px ;
+    margin-top: -5px;
+}
+
+.nav-link, .dropdown-item{
     color: #fff !important;
 }
 
-a:hover{
+.nav-link:hover{
+    color: $color-amarillo !important;
+}
+
+.dropdown-item:hover{
+    background-color: $color-naranja;
     color: $color-amarillo !important;
 }
 
 .dropdown-menu {
     background-color: $color-naranja;}
 
+.navbar-collapse{
+    background-color: $color-naranja;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+}
 
-.carita:hover{
+.carita:hover, .carita2:hover{
         transform: scale(1.2);  
 }
 
-.carita2:hover{
-    transform: scale(1.2);  
-}
 
 
 

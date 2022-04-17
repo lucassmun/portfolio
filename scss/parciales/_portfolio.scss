@@ -6,7 +6,6 @@
     width: 100%;
     border: 2px solid $color-azul;
     box-shadow: -7px 12px 0px $color-azul;
-  
 }
 
 .video_video{
@@ -14,8 +13,6 @@
     box-shadow: 8px 6px 0px $color-naranja;
     margin-left: 10%;
 }
-
-
 
 .portfolio_contenido{
     background-color: aliceblue;
@@ -31,11 +28,10 @@
     color: $color-amarillo;
     font-family: $fuente-titulos;
     -webkit-text-stroke: 0.01px $color-azul;
-    font-size: 70px;
-    text-shadow: -0.3rem 0.2rem $color-azul;
+    font-size: 50px;
+    text-shadow: -0.2rem 0.1rem $color-azul;
     text-align: center;
 }
-
 
 .trabajo_titulo{
      color: $color-amarillo;
@@ -47,12 +43,17 @@
 }
 
 .trabajo_container{
-    width: 90%;
+    width: 80%;
     height: auto;
-    margin-left: 5%;
-    background-color: $color-amarillo;
-    border: 4px solid $color-azul;
-    padding: 20px;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+.trabajo_container2{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-bottom: 50px;
 }
 
 .trabajo_subtitulo{
@@ -70,6 +71,7 @@
     background: var(--c);
     color: #fff;
     font-family: $fuente-textos;
+    font-size: 15px;
     padding: 0.5em 1em;
     position: relative;
     border-radius: 0 0.25em 0.25em 0.25em;
@@ -92,7 +94,6 @@
     transform-origin: 100% 100%;
 }
 
-
 .portfolio_subtitulo2{
     color: $color-amarillo;
     font-family: $fuente-titulos;
@@ -102,6 +103,62 @@
     text-align: center;
 }
 
+.card{
+    margin-bottom: 20px;
+}
+
+
+.card-title{
+    font-family: $fuente-titulos;
+    color: $color-amarillo;
+}
+
+.card-body{
+    background-color: $color-azul;
+}
+
+.card-text{
+    color: white;
+    font-family: $fuente-textos;
+    font-size: 13px;
+}
+
+.btn{
+    background-color: $color-naranja !important;
+    color: white;
+    font-family: $fuente-textos;
+    font-size: 13px;
+}
+
+.modal-title{
+    font-family: $fuente-titulos;
+    color: #414698;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: $color-naranja;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 2px 2px $color-amarillo;
+  }
+  
+  .button:hover {background-color: #ef7335}
+  
+  .button:active {
+    background-color: $color-naranja;
+    box-shadow: 3px 3px #f9cc19;
+    transform: translateY(4px);
+  }
+
+
 
 .box3 {
     width: 80%;
@@ -110,8 +167,10 @@
     border-radius: 15px;
     background: $color-naranja;
     font-family: $fuente-textos;
+    font-size: 13px;
     color: #fff;
     padding: 20px;
+    margin-bottom: 10px;
     text-align: center;
     position: relative;
   }
@@ -131,19 +190,13 @@
 
 
   .portfolio_video{
-      width: 90%;
-      margin-left: 5%;
-      height: 500px;
-      @include crearFlex(center, center);
-      box-shadow: 4px 4px 0px $color-naranja;
+      width: 100%;
   }
 
   .imagen_web{
       width: 100%;
-      height: 500px;
   }
 
   .portfolio_video iframe{
       width: 100%;
-      height: 100%;
   }

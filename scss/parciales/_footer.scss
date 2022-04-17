@@ -8,12 +8,26 @@
     gap: 10px;
     flex-direction: row;
     @include crearFlex(center, center);
+    justify-content: space-around;
 }
 
-.titulo_footer{
+.footer_titulo{
     font-family: $fuente-titulos;
     font-size: 16px;
     margin-bottom: -5px;
+}
+
+.footer_subtitulo{
+    font-family: $fuente-textos;
+    font-size: 10px;
+    margin-bottom: -3px;
+}
+
+.footer_copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer_redes{
@@ -21,7 +35,13 @@
     gap: 10px;
 }
 
-svg:hover  {
+.footer_redes svg{
+    color: white;
+}
+
+
+.footer_redes svg:hover  {
+    color: $color-amarillo;
     transform: scale(1.2);
 }
 
