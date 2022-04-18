@@ -1,113 +1,110 @@
 
-/* MEDIA QUERIS */
-
-/* Tablet */
+/* MEDIA QUERYS */
 
 @media screen and (max-width: 1024px) {
 
-    .carita, .carita2{
-        display: none !important;
-       }
+.carita, .carita2{
+    display: none !important;
+}
 
-       .encabezado_texto1, .encabezado_texto2, .encabezado_texto3, .encabezado_texto4, .encabezado_texto5{
-        font-size: 17px;
-        }
+.encabezado_texto1, .encabezado_texto2, .encabezado_texto3, .encabezado_texto4, .encabezado_texto5{
+   font-size: 17px;
+}
     
-        .encabezado_estrella1, .encabezado_estrella2, .encabezado_estrella3, .encabezado_estrella4{
-        font-size: 15px;      
-    }
+.encabezado_estrella1, .encabezado_estrella2, .encabezado_estrella3, .encabezado_estrella4{
+   font-size: 15px;      
+}
 
-    .logo_marca{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+.logo_marca{
+   margin-left: 10px;
+   margin-right: 10px;
+}
 
-    .ventana_nombre{
-        background-color: aliceblue;
-        height: 280px;
-        width: 80%;
-        margin-left: 10%;
-        margin-bottom: 30px;
-        border: 2px solid #414698;
-        border-top: none;
-        box-shadow: 5px 3px 0px #e26628;
-    
-    }
+.ventana_nombre{
+    background-color: aliceblue;
+    height: 280px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    border: 2px solid #414698;
+    border-top: none;
+    box-shadow: 5px 3px 0px #e26628;
+}
 
-    .ventana{
-        background-color: #eb5b29;
-        height: 50px;
-        width: 80%;
-        margin-left: 10%;
-        border: 2px solid #414698;
-        box-shadow: 5px 3px 0px #e26628;
-    }
+.ventana{
+    background-color: #eb5b29;
+    height: 50px;
+    width: 80%;
+    margin-left: 10%;
+    border: 2px solid #414698;
+    box-shadow: 5px 3px 0px #e26628;
+}
     
-    .minimizar{
-        width: 25px;
-        height: 25px;
-    }
+.minimizar{
+    width: 25px;
+    height: 25px;
+}
     
-    .maximizar{
-        width: 25px;
-        height: 25px;
-    }
+.maximizar{
+    width: 25px;
+    height: 25px;
+}
     
-    .cerrar{
-        width: 25px;
-        height: 25px;
+.cerrar{
+    width: 25px;
+    height: 25px;
+    margin-right: 1rem;
+}
+    
+.icons{
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.lucas{
+    font-size: 80px;
+    text-shadow: 0.2rem 0.1rem #ffdd55;
+    margin-top: 20px;
+}
+    
+.dosdos{
+    font-size: 40px;
+    text-shadow: -0.2rem 0.1rem #eb5b29;
+}
+
+.bienvenido{
+   width: 180px;
+   height: 40px;
+   background-color: aliceblue;
+   border: 2px solid #eb5b29;
+   border-radius: 0.5rem; 
+   font-size: 20px;
+}
+
+.minimizar2{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+    
+.maximizar2{
+        width: 30px;
+        height: 30px;
+        text-align: center;
+}
+    
+.cerrar2{
+        width: 30px;
+        height: 30px;
+        text-align: center;
         margin-right: 1rem;
-    }
+}
     
-    .icons{
+.icons{
         color: aliceblue;
-        font-size: 15px;
-    }
+}
 
-    .lucas{
-        font-size: 80px;
-        text-shadow: 0.2rem 0.1rem #ffdd55;
-        margin-top: 20px;
-    }
-    
-    .dosdos{
-        font-size: 40px;
-        text-shadow: -0.2rem 0.1rem #eb5b29;
-    }
-
-    .bienvenido{
-        width: 180px;
-        height: 40px;
-        background-color: aliceblue;
-        border: 2px solid #eb5b29;
-        border-radius: 0.5rem; 
-        font-size: 20px;
-    }
-
-    .minimizar2{
-        width: 30px;
-        height: 30px;
-        text-align: center;
-    }
-    
-    .maximizar2{
-        width: 30px;
-        height: 30px;
-        text-align: center;
-    }
-    
-    .cerrar2{
-        width: 30px;
-        height: 30px;
-        text-align: center;
-        margin-right: 1rem;
-    }
-    
-    .icons{
-        color: aliceblue;
-    }
-
-    .ventana_perfil{
+.ventana_perfil{
         height: 500px;
         width: 70%;
         margin-left: 15%;
@@ -116,16 +113,16 @@
         border-top: none;
         box-shadow: 7px 5px 0px #e26628;
         flex-direction: column;
-    }
+}
  
-    .ventana_perfil img{
+.ventana_perfil img{
         margin-bottom: 20px;
-     }
+}
     
-     .chat-bubble {
+.chat-bubble {
         height: auto;
         width: 70%;
-      }
+}
 
  /* sobre mi */
 
@@ -219,7 +216,6 @@
     height: 20px;
     appearance: none;
    -webkit-appearance: none;
- 
  }
  
  
@@ -232,7 +228,6 @@
  .medidor::-webkit-progress-value {
     background-color: $color-azul;
     border-radius: 10px;
-    
   }
  
  .barra{
@@ -248,16 +243,9 @@
  
 /* portfolio WEB */
 
-
 .portfolio_imagen2{
     display: none !important;
 }
-
-/* .video_video{
-    display: none !important;
-}
- */
-
 
 .portfolio_barra2{
     background-color:#70b72d;
@@ -278,25 +266,23 @@
     height: 100px;
     width: 80%;
     margin-left: 5%;
-  }
+}
 
 .portfolio_subtitulo3{
     font-size: 50px;
     text-align: center;
 }
 
-
 .box5 {
     width: 90%;
     height: 65px;
-  }
+}
 
-  .portfolio_video2{
+.portfolio_video2{
       height: 200px;
-  }
+}
 
-
-  .portfolio_video2 img{
+.portfolio_video2 img{
     height: 100%;
 }
 
@@ -313,7 +299,6 @@
     margin-left: 10%;
     margin-bottom: 50px;
 }
-
 
 .redes_subtitulo{
     font-size: 40px;
@@ -335,11 +320,17 @@ display: flex;
 justify-content: center;
 margin-right: 40px;
 }
+}
+/* --------------------768-------------------------------------- */
 
+@media screen and (max-width: 768px) {
+.video_video{
+display: none;
+}
 }
 
 
-/* Movil */
+/* ---------------------600------------------------------------ */
 
 @media screen and (max-width: 600px) {
 
@@ -503,7 +494,7 @@ margin-right: 40px;
         margin-right: 1rem;
     }  
     
-button svg {
+  button svg {
     width: 15px;
     height: 15px;
    margin-left: 5px;
@@ -535,7 +526,7 @@ button svg {
     justify-content: space-around;
 } 
 
-/* WEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB */
+/* WEB */
 
     .portfolio_barra{
         width: 80%;
@@ -609,8 +600,7 @@ button svg {
         left: -16px;
         top: 0px;
       }
-    
-    
+
       .portfolio_video{
           width: 100%;
           margin-left: 0%;
@@ -620,21 +610,6 @@ button svg {
     .imagen_web{
         height: 300px;
         width: 100%;
-    }
-
-
-    .trabajo_container{
-        width: 90%;
-        margin-left: 5%;
-        margin-bottom: 30px;
-        justify-content: center;
-    }
-    
-    .trabajo_container2{
-        width: 90%;
-        height: auto;
-        margin-left: 5%;
-        margin-bottom: 50px;
     }
 
   /* contacto MQ movil */
@@ -650,7 +625,6 @@ button svg {
     margin-left: 10%;
     margin-bottom: 50px;
 }
-
 
 .redes_subtitulo{
     font-size: 40px;
@@ -681,11 +655,16 @@ margin-right: 40px;
     height:auto;
     width: 100%;
 }
+}
 
- }
-
-
+/* ----------------436-------------------------------- */
  @media screen and (max-width: 436px) {
+
+    .col-sm-6{
+        justify-content: center !important;
+        gap: 20px !important;
+       }
+
 
     .encabezado_texto{
             font-size: 8px;
@@ -812,7 +791,6 @@ margin-right: 40px;
         flex-direction: column;
     }
     
-    
     .ventana_perfil img{
         margin-top: 20px;
         margin-bottom: -10px;
@@ -859,26 +837,11 @@ margin-right: 40px;
         font-size: 15px;
         width: 80%;
         margin-bottom: 20px;
-      }
-    
-
-
-      .trabajo_container{
-        width: 90%;
-        margin-left: 20%;
-        margin-bottom: 30px;
     }
     
-    .trabajo_container2{
-        width: 90%;
-        height: auto;
-        margin-left: 20%;
-        margin-bottom: 50px;
-    }
-
 }
 
-
+/* ----------------------320---------------------------------- */
 
  @media screen and (max-width: 320px) {
 
@@ -930,7 +893,6 @@ display: none !important;
     margin-left: 10px;
     margin-right: 10px;
 }
-
 
 .ventana_nombre{
     height: auto;
@@ -1007,7 +969,6 @@ display: none !important;
     flex-direction: column;
 }
 
-
 .ventana_perfil img{
     margin-top: 20px;
     margin-bottom: -10px;
@@ -1034,7 +995,6 @@ display: none !important;
     margin-right: 1rem;
 }  
 
-
 button svg {
 width: 15px;
 height: 15px;
@@ -1047,16 +1007,12 @@ button:hover svg {
 transform: scale(1.0);
 }
 
-
-
 .chat-bubble {
     height: auto;
     font-size: 15px;
     width: 80%;
     margin-bottom: 20px;
   }
-
-
 
 .footer{
     color: white;
@@ -1089,7 +1045,6 @@ transform: scale(1.0);
         font-size: 40px;
     }
    
- 
  .estudios_contenido{
         height: auto;
         width: 100%;
@@ -1099,8 +1054,7 @@ transform: scale(1.0);
         box-shadow: -7px 5px 0px $color-azul;
         padding-left: 20px;
   }
-    
- 
+
  .perfil_contenido{
         height: auto;
         width: 100%;
@@ -1110,7 +1064,6 @@ transform: scale(1.0);
         padding-top: 20px;
         padding-left: 20px;
  }
- 
  
  .herramientas_contenido{
         background-color: aliceblue;
@@ -1278,18 +1231,4 @@ transform: scale(1.0);
     height: auto;
     width: 100%;
 }
-
- .trabajo_container{
-        width: 80%;
-        margin-left: 12%;
-        margin-bottom: 20px;
-    }
-    
-    .trabajo_container2{
-        width: 80%;
-        height: auto;
-        margin-left: 12%;
-        margin-bottom: 20px;
-    }
-
- }
+}

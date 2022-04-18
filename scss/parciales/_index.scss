@@ -68,8 +68,7 @@
     position: absolute;
     left: -40px;
     top: 130px;
-   }
-
+}
 
 .dosdos{
     font-family: $fuente-titulos;
@@ -96,9 +95,9 @@ button svg {
     margin-left: 6px;
     color: $color-naranja;
     transition: transform 0.3s;
- }
+}
    
-   button:hover svg {
+button:hover svg {
     transform: scale(1.2);
 }
 
@@ -150,10 +149,9 @@ button svg {
 .ventana_perfil img{
     width: 200px;
     height: 200px;
- }
+}
  
-
- .chat-bubble {
+.chat-bubble {
     --c: #ff703b;
     background: var(--c);
     color: #fff;
@@ -165,9 +163,9 @@ button svg {
     width: 50%;
     display: flex;
     align-items: center;
-  }
+}
 
-  .chat-bubble::after {
+.chat-bubble::after {
     content: "";
     position: absolute;
     border: 0.5em solid transparent;

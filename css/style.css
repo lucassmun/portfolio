@@ -461,17 +461,9 @@ label {
   text-shadow: -0.3rem 0.1rem #414698;
   text-align: center; }
 
-.trabajo_container {
-  width: 80%;
-  height: auto;
-  margin-left: 10%;
-  margin-bottom: 30px; }
-
-.trabajo_container2 {
-  width: 60%;
-  height: auto;
-  margin-left: 20%;
-  margin-bottom: 50px; }
+.col-sm-6 {
+  justify-content: center !important;
+  gap: 20px !important; }
 
 .trabajo_subtitulo {
   color: #e26628;
@@ -626,9 +618,6 @@ label {
   box-shadow: -10px 12px 0px #e26628;
   padding: 30px; }
 
-/* .bi-telephone-fill, .bi-person-fill, .bi-envelope-fill, .bi-chat-left-fill, .bi-linkedin, .bi-behance, .bi-github{
-    color: $color-azul;
-} */
 label {
   color: #414698;
   font-family: "Roboto", sans-serif;
@@ -676,10 +665,11 @@ label {
 
 .box4 {
   width: 100%;
-  height: 80px;
+  height: 60px;
   border-radius: 15px;
   background: #e26628;
   font-family: "Roboto", sans-serif;
+  font-size: 15px;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -696,6 +686,9 @@ label {
   border-bottom: 15px solid transparent;
   left: -16px;
   top: 0px; }
+
+.box4 svg {
+  margin-right: 10px; }
 
 .contacto_enviar {
   background-color: #414698;
@@ -748,8 +741,7 @@ label {
   color: #ffdd55;
   transform: scale(1.2); }
 
-/* MEDIA QUERIS */
-/* Tablet */
+/* MEDIA QUERYS */
 @media screen and (max-width: 1024px) {
   .carita, .carita2 {
     display: none !important; }
@@ -913,10 +905,6 @@ label {
   /* portfolio WEB */
   .portfolio_imagen2 {
     display: none !important; }
-  /* .video_video{
-    display: none !important;
-}
- */
   .portfolio_barra2 {
     background-color: #70b72d;
     height: 20px;
@@ -965,7 +953,12 @@ label {
     justify-content: center;
     margin-right: 40px; } }
 
-/* Movil */
+/* --------------------768-------------------------------------- */
+@media screen and (max-width: 768px) {
+  .video_video {
+    display: none; } }
+
+/* ---------------------600------------------------------------ */
 @media screen and (max-width: 600px) {
   .sobremi {
     flex-direction: column; }
@@ -1093,7 +1086,7 @@ label {
     justify-content: center;
     align-items: center;
     justify-content: space-around; }
-  /* WEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB */
+  /* WEB */
   .portfolio_barra {
     width: 80%;
     margin-left: 10%; }
@@ -1154,16 +1147,6 @@ label {
   .imagen_web {
     height: 300px;
     width: 100%; }
-  .trabajo_container {
-    width: 90%;
-    margin-left: 5%;
-    margin-bottom: 30px;
-    justify-content: center; }
-  .trabajo_container2 {
-    width: 90%;
-    height: auto;
-    margin-left: 5%;
-    margin-bottom: 50px; }
   /* contacto MQ movil */
   .contacto_barra {
     width: 80%;
@@ -1194,7 +1177,11 @@ label {
     height: auto;
     width: 100%; } }
 
+/* ----------------436-------------------------------- */
 @media screen and (max-width: 436px) {
+  .col-sm-6 {
+    justify-content: center !important;
+    gap: 20px !important; }
   .encabezado_texto {
     font-size: 8px; }
   .navbar-expand-lg {
@@ -1305,17 +1292,9 @@ label {
     height: auto;
     font-size: 15px;
     width: 80%;
-    margin-bottom: 20px; }
-  .trabajo_container {
-    width: 90%;
-    margin-left: 20%;
-    margin-bottom: 30px; }
-  .trabajo_container2 {
-    width: 90%;
-    height: auto;
-    margin-left: 20%;
-    margin-bottom: 50px; } }
+    margin-bottom: 20px; } }
 
+/* ----------------------320---------------------------------- */
 @media screen and (max-width: 320px) {
   .encabezado_texto {
     font-size: 8px; }
@@ -1582,13 +1561,4 @@ label {
     height: auto; }
   .imagen_web {
     height: auto;
-    width: 100%; }
-  .trabajo_container {
-    width: 80%;
-    margin-left: 12%;
-    margin-bottom: 20px; }
-  .trabajo_container2 {
-    width: 80%;
-    height: auto;
-    margin-left: 12%;
-    margin-bottom: 20px; } }
+    width: 100%; } }

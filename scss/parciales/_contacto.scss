@@ -31,18 +31,11 @@
     padding: 30px;
 }
 
-
-/* .bi-telephone-fill, .bi-person-fill, .bi-envelope-fill, .bi-chat-left-fill, .bi-linkedin, .bi-behance, .bi-github{
-    color: $color-azul;
-} */
-
-
-
 label{
    color: $color-azul;
    font-family: $fuente-textos;
    font-size: 0.8rem;
-    }
+}
 
 ::placeholder{
     font-family: $fuente-textos;
@@ -53,7 +46,6 @@ label{
     margin-top: 20px;
     background-color:  $color-azul !important;
 }
-
 
 .redes_subtitulo{
     color: $color-amarillo;
@@ -92,17 +84,18 @@ color: $color-naranja;
 
 .box4 {
     width: 100%;
-    height: 80px;
+    height: 60px;
     border-radius: 15px;
     background: $color-naranja;
     font-family: $fuente-textos;
+    font-size: 15px;
     color: #fff;
     padding: 20px;
     text-align: center;
     position: relative;
-  }
+}
 
-  .sb15:before {
+.sb15:before {
     content: "";
     width: 0px;
     height: 0px;
@@ -113,9 +106,13 @@ color: $color-naranja;
     border-bottom: 15px solid transparent;
     left: -16px;
     top: 0px;
-  }
+}
 
-  .contacto_enviar{
+.box4 svg{
+   margin-right: 10px;
+}
+
+.contacto_enviar{
      background-color: $color-azul;
      color: #fff;
      font-family: $fuente-titulos;
@@ -123,4 +120,5 @@ color: $color-naranja;
      height: 30px;
      @include crearFlex(center, center);
      border-radius: 5px;
-  }
+}
+
