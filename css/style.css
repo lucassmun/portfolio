@@ -438,7 +438,7 @@ label {
 .video_video1 {
   width: 80%;
   max-height: auto;
-  box-shadow: 8px 6px 0px #414698;
+  box-shadow: 8px 6px 0px #e26628;
   margin-left: 10%; }
 
 .portfolio_contenido {
@@ -493,7 +493,8 @@ label {
   padding: 0.5em 1em;
   position: relative;
   border-radius: 0 0.25em 0.25em 0.25em;
-  height: auto;
+  height: 120px;
+  padding: 20px;
   width: 75%;
   margin-left: 15%;
   display: flex;

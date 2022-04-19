@@ -19,7 +19,7 @@
 .video_video1{
     width: 80%;
     max-height: auto;
-    box-shadow: 8px 6px 0px $color-azul;
+    box-shadow: 8px 6px 0px $color-naranja;
     margin-left: 10%;
 }
 
@@ -80,7 +80,8 @@
     padding: 0.5em 1em;
     position: relative;
     border-radius: 0 0.25em 0.25em 0.25em;
-    height: auto;
+    height: 120px;
+    padding: 20px;
     width: 75%;
     margin-left: 15%;
     display: flex;
