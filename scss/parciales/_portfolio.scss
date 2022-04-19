@@ -10,6 +10,7 @@
 
 .video_video{
     width: 80%;
+    max-height: 400px;
     box-shadow: 8px 6px 0px $color-naranja;
     margin-left: 10%;
 }
@@ -46,6 +47,11 @@
  justify-content: center !important;
  gap: 20px !important;
 }
+
+.row{
+    justify-content: center !important;
+}
+
 
 .trabajo_subtitulo{
     color: $color-naranja;
@@ -94,8 +100,20 @@
     text-align: center;
 }
 
+
+.col-sm{
+    width: 320px;
+}
+
 .card{
     margin-bottom: 20px;
+}
+
+
+.card1{
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: 10%;
 }
 
 .card-title{
@@ -186,4 +204,9 @@
 
 .portfolio_video iframe{
     width: 100%;
+}
+
+.container{
+    margin-bottom: 30px;
+    justify-content: center !important;
 }
